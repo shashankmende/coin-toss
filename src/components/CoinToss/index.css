@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: #e2a139;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 200px;
+}
+
+.button {
+  background-color: #e2a139;
+  border-radius: 7px;
+  border: none;
+  font-weight: bold;
+  color: #a35200;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.output-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
